@@ -9,3 +9,5 @@ reports/*.log
 # Large SPICE binary kernels
 *.bsp
 *.bpc
+# Generated JPL Horizons response cache
+data/validation/

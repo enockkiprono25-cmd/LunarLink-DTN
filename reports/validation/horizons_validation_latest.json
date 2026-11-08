@@ -1,0 +1,493 @@
+{
+    "project": "LunarLink-DTN",
+    "validation_type": "Independent solar geometry validation",
+    "generated_utc": "2026-11-08T21:36:41.279958+00:00",
+    "reference_source": "NASA JPL Horizons",
+    "reference_ephemeris": "DE441",
+    "lunarlink_ephemeris": "DE440s",
+    "reference_frame": "ICRF",
+    "comparison_frame": "MOON_ME",
+    "vector_correction": "NONE",
+    "sites_tested": 5,
+    "timestamps_tested": 3,
+    "total_cases": 15,
+    "passed": 15,
+    "failed": 0,
+    "vector_tolerance_km": 0.05,
+    "angle_tolerance_deg": 0.0001,
+    "overall_status": "PASS",
+    "results": [
+        {
+            "site": "South Pole",
+            "latitude_deg": -90.0,
+            "longitude_deg": 0.0,
+            "utc": "2026-11-08T00:00:00",
+            "horizons_vector_icrf_km": [
+                -104084053.0833375,
+                -96376957.81798416,
+                -41741566.27579119
+            ],
+            "horizons_vector_moon_me_km": [
+                -139059745.83650193,
+                -50111753.5691707,
+                -3945339.2466278854
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -139059745.8366063,
+                -50111753.570848435,
+                -3945339.246747336
+            ],
+            "vector_error_km": 0.001685218466330976,
+            "angular_error_deg": 5.991818250442407e-10,
+            "horizons_elevation_deg": 1.5289387236286645,
+            "lunarlink_elevation_deg": 1.5289387236680407,
+            "elevation_error_deg": 3.937628001438043e-11,
+            "horizons_azimuth_deg": 199.81720118368185,
+            "lunarlink_azimuth_deg": 199.81720118427995,
+            "azimuth_error_deg": 5.981064532534219e-10,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        },
+        {
+            "site": "South Pole",
+            "latitude_deg": -90.0,
+            "longitude_deg": 0.0,
+            "utc": "2026-11-08T12:00:00",
+            "horizons_vector_icrf_km": [
+                -103168061.7280617,
+                -97167735.67936626,
+                -42082666.50185768
+            ],
+            "horizons_vector_moon_me_km": [
+                -143571091.9330207,
+                -35040855.02529217,
+                -3955840.990672912
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -143571091.93307108,
+                -35040855.026943386,
+                -3955840.990765995
+            ],
+            "vector_error_km": 0.0016546008925325724,
+            "angular_error_deg": 6.178657109883185e-10,
+            "horizons_elevation_deg": 1.5332969810197465,
+            "lunarlink_elevation_deg": 1.533296981051245,
+            "elevation_error_deg": 3.149835947624524e-11,
+            "horizons_azimuth_deg": 193.7158182316942,
+            "lunarlink_azimuth_deg": 193.71581823231148,
+            "azimuth_error_deg": 6.172911071189446e-10,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        },
+        {
+            "site": "South Pole",
+            "latitude_deg": -90.0,
+            "longitude_deg": 0.0,
+            "utc": "2026-11-09T00:00:00",
+            "horizons_vector_icrf_km": [
+                -102247965.9453594,
+                -97953502.52190572,
+                -42422023.38563935
+            ],
+            "horizons_vector_moon_me_km": [
+                -146458545.14078778,
+                -19578862.782209948,
+                -3965596.0211962378
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -146458545.14078432,
+                -19578862.783837892,
+                -3965596.0212620855
+            ],
+            "vector_error_km": 0.0016292792520385892,
+            "angular_error_deg": 6.260707317808213e-10,
+            "horizons_elevation_deg": 1.5373254210046816,
+            "lunarlink_elevation_deg": 1.5373254210279919,
+            "elevation_error_deg": 2.3310242625029787e-11,
+            "horizons_azimuth_deg": 187.614267406891,
+            "lunarlink_azimuth_deg": 187.61426740751685,
+            "azimuth_error_deg": 6.258460416574962e-10,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        },
+        {
+            "site": "Near South Pole",
+            "latitude_deg": -89.0,
+            "longitude_deg": 0.0,
+            "utc": "2026-11-08T00:00:00",
+            "horizons_vector_icrf_km": [
+                -104084080.4638948,
+                -96376969.94827756,
+                -41741571.03428928
+            ],
+            "horizons_vector_moon_me_km": [
+                -139059776.15831286,
+                -50111753.569170706,
+                -3945339.511242314
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -139059776.15841722,
+                -50111753.570848435,
+                -3945339.5113617713
+            ],
+            "vector_error_km": 0.001685211543945552,
+            "angular_error_deg": 5.9918201946184e-10,
+            "horizons_elevation_deg": 0.5881382019614019,
+            "lunarlink_elevation_deg": 0.5881382020043148,
+            "elevation_error_deg": 4.291289545932386e-11,
+            "horizons_azimuth_deg": 199.81093388411048,
+            "lunarlink_azimuth_deg": 199.81093388470816,
+            "azimuth_error_deg": 5.976801276119659e-10,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        },
+        {
+            "site": "Near South Pole",
+            "latitude_deg": -89.0,
+            "longitude_deg": 0.0,
+            "utc": "2026-11-08T12:00:00",
+            "horizons_vector_icrf_km": [
+                -103168087.4330303,
+                -97167750.62977336,
+                -42082672.4366831
+            ],
+            "horizons_vector_moon_me_km": [
+                -143571122.2548316,
+                -35040855.02529222,
+                -3955841.2552873394
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -143571122.254882,
+                -35040855.026943386,
+                -3955841.2553804303
+            ],
+            "vector_error_km": 0.0016545576334437715,
+            "angular_error_deg": 6.178436118170892e-10,
+            "horizons_elevation_deg": 0.5618027141976466,
+            "lunarlink_elevation_deg": 0.5618027142316974,
+            "elevation_error_deg": 3.4050762209858476e-11,
+            "horizons_azimuth_deg": 193.711480462898,
+            "lunarlink_azimuth_deg": 193.71148046351493,
+            "azimuth_error_deg": 6.169216248963494e-10,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        },
+        {
+            "site": "Near South Pole",
+            "latitude_deg": -89.0,
+            "longitude_deg": 0.0,
+            "utc": "2026-11-09T00:00:00",
+            "horizons_vector_icrf_km": [
+                -102247989.6352478,
+                -97953520.09368579,
+                -42422030.42154517
+            ],
+            "horizons_vector_moon_me_km": [
+                -146458575.46259868,
+                -19578862.78220997,
+                -3965596.285810663
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -146458575.46259525,
+                -19578862.783837892,
+                -3965596.285876521
+            ],
+            "vector_error_km": 0.001629257269719487,
+            "angular_error_deg": 6.260581430008117e-10,
+            "horizons_elevation_deg": 0.5461394042214726,
+            "lunarlink_elevation_deg": 0.5461394042462299,
+            "elevation_error_deg": 2.4757307315326216e-11,
+            "horizons_azimuth_deg": 187.61185677354788,
+            "lunarlink_azimuth_deg": 187.6118567741735,
+            "azimuth_error_deg": 6.25618667982053e-10,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        },
+        {
+            "site": "High Latitude East",
+            "latitude_deg": -85.0,
+            "longitude_deg": 90.0,
+            "utc": "2026-11-08T00:00:00",
+            "horizons_vector_icrf_km": [
+                -104083988.1300983,
+                -96377081.56111027,
+                -41741624.94239392
+            ],
+            "horizons_vector_moon_me_km": [
+                -139059745.83650193,
+                -50111904.993558146,
+                -3945345.857959421
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -139059745.8366063,
+                -50111904.99523588,
+                -3945345.8580788714
+            ],
+            "vector_error_km": 0.001685218466330976,
+            "angular_error_deg": 5.991849975948281e-10,
+            "horizons_elevation_deg": -0.16941132597457736,
+            "lunarlink_elevation_deg": -0.1694113259843607,
+            "elevation_error_deg": 9.78334080414811e-12,
+            "horizons_azimuth_deg": 109.87309227217746,
+            "lunarlink_azimuth_deg": 109.87309227277656,
+            "azimuth_error_deg": 5.991012130834861e-10,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        },
+        {
+            "site": "High Latitude East",
+            "latitude_deg": -85.0,
+            "longitude_deg": 90.0,
+            "utc": "2026-11-08T12:00:00",
+            "horizons_vector_icrf_km": [
+                -103167981.5178178,
+                -97167851.58414282,
+                -42082722.22846144
+            ],
+            "horizons_vector_moon_me_km": [
+                -143571091.93302068,
+                -35041006.44967963,
+                -3955847.602004445
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -143571091.93307108,
+                -35041006.45133083,
+                -3955847.6020975304
+            ],
+            "vector_error_km": 0.0016545944956478176,
+            "angular_error_deg": 6.178593791825593e-10,
+            "horizons_elevation_deg": 0.34367571422882365,
+            "lunarlink_elevation_deg": 0.34367571420795817,
+            "elevation_error_deg": 2.086547601365396e-11,
+            "horizons_azimuth_deg": 103.79548242086415,
+            "lunarlink_azimuth_deg": 103.79548242148165,
+            "azimuth_error_deg": 6.175042699396727e-10,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        },
+        {
+            "site": "High Latitude East",
+            "latitude_deg": -85.0,
+            "longitude_deg": 90.0,
+            "utc": "2026-11-09T00:00:00",
+            "horizons_vector_icrf_km": [
+                -102247871.5388462,
+                -97953609.02412729,
+                -42422075.51760547
+            ],
+            "horizons_vector_moon_me_km": [
+                -146458545.14078772,
+                -19579014.206597414,
+                -3965602.6325277775
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -146458545.14078432,
+                -19579014.208225343,
+                -3965602.632593621
+            ],
+            "vector_error_km": 0.0016292640683287754,
+            "angular_error_deg": 6.260611047470934e-10,
+            "horizons_elevation_deg": 0.8698850944335961,
+            "lunarlink_elevation_deg": 0.8698850944027614,
+            "elevation_error_deg": 3.083466815212432e-11,
+            "horizons_azimuth_deg": 97.71850268822014,
+            "lunarlink_azimuth_deg": 97.71850268884552,
+            "azimuth_error_deg": 6.253770834518946e-10,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        },
+        {
+            "site": "High Latitude West",
+            "latitude_deg": -85.0,
+            "longitude_deg": -90.0,
+            "utc": "2026-11-08T00:00:00",
+            "horizons_vector_icrf_km": [
+                -104084118.2463997,
+                -96376829.0866349,
+                -41741519.85306132
+            ],
+            "horizons_vector_moon_me_km": [
+                -139059745.83650184,
+                -50111602.14478328,
+                -3945345.8579594158
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -139059745.8366063,
+                -50111602.14646099,
+                -3945345.8580788714
+            ],
+            "vector_error_km": 0.0016851946989579253,
+            "angular_error_deg": 5.991628717677367e-10,
+            "horizons_elevation_deg": 3.21697687625885,
+            "lunarlink_elevation_deg": 3.21697687634719,
+            "elevation_error_deg": 8.834000198021386e-11,
+            "horizons_azimuth_deg": 289.62197480221323,
+            "lunarlink_azimuth_deg": 289.62197480280673,
+            "azimuth_error_deg": 5.935021363256965e-10,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        },
+        {
+            "site": "High Latitude West",
+            "latitude_deg": -85.0,
+            "longitude_deg": -90.0,
+            "utc": "2026-11-08T12:00:00",
+            "horizons_vector_icrf_km": [
+                -103168142.1482334,
+                -97167614.7871408,
+                -42082623.01944039
+            ],
+            "horizons_vector_moon_me_km": [
+                -143571091.93302065,
+                -35040703.60090477,
+                -3955847.6020044433
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -143571091.93307108,
+                -35040703.60255594,
+                -3955847.6020975304
+            ],
+            "vector_error_km": 0.0016545583318601721,
+            "angular_error_deg": 6.178419304427492e-10,
+            "horizons_elevation_deg": 2.7118942677499676,
+            "lunarlink_elevation_deg": 2.711894267833653,
+            "elevation_error_deg": 8.368550297177535e-11,
+            "horizons_azimuth_deg": 283.5355460300294,
+            "lunarlink_azimuth_deg": 283.53554603064225,
+            "azimuth_error_deg": 6.128288987383712e-10,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        },
+        {
+            "site": "High Latitude West",
+            "latitude_deg": -85.0,
+            "longitude_deg": -90.0,
+            "utc": "2026-11-09T00:00:00",
+            "horizons_vector_icrf_km": [
+                -102248060.5617833,
+                -97953391.03299631,
+                -42421983.49816997
+            ],
+            "horizons_vector_moon_me_km": [
+                -146458545.14078772,
+                -19578711.35782253,
+                -3965602.6325277737
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -146458545.14078432,
+                -19578711.35945044,
+                -3965602.632593621
+            ],
+            "vector_error_km": 0.001629245607691137,
+            "angular_error_deg": 6.260548076714208e-10,
+            "horizons_elevation_deg": 2.1932623432932528,
+            "lunarlink_elevation_deg": 2.193262343370557,
+            "elevation_error_deg": 7.73043851154398e-11,
+            "horizons_azimuth_deg": 277.45267689054594,
+            "lunarlink_azimuth_deg": 277.4526768911677,
+            "azimuth_error_deg": 6.217533154995181e-10,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        },
+        {
+            "site": "Equatorial Reference",
+            "latitude_deg": 0.0,
+            "longitude_deg": 0.0,
+            "utc": "2026-11-08T00:00:00",
+            "horizons_vector_icrf_km": [
+                -104085649.2825937,
+                -96377003.15707242,
+                -41743433.6830369
+            ],
+            "horizons_vector_moon_me_km": [
+                -139061483.23650184,
+                -50111753.569170825,
+                -3947076.6466278736
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -139061483.2366063,
+                -50111753.570848435,
+                -3947076.646747336
+            ],
+            "vector_error_km": 0.0016850987339629513,
+            "angular_error_deg": 5.99118570115301e-10,
+            "horizons_elevation_deg": -70.12644919720339,
+            "lunarlink_elevation_deg": -70.12644919660427,
+            "elevation_error_deg": 5.991154239382013e-10,
+            "horizons_azimuth_deg": 265.49636821016395,
+            "lunarlink_azimuth_deg": 265.49636821017833,
+            "azimuth_error_deg": 1.4381384971784428e-11,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        },
+        {
+            "site": "Equatorial Reference",
+            "latitude_deg": 0.0,
+            "longitude_deg": 0.0,
+            "utc": "2026-11-08T12:00:00",
+            "horizons_vector_icrf_km": [
+                -103169561.9319413,
+                -97167942.7081181,
+                -42084601.3519644
+            ],
+            "horizons_vector_moon_me_km": [
+                -143572829.3330207,
+                -35040855.02529229,
+                -3957578.390672897
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -143572829.33307108,
+                -35040855.026943386,
+                -3957578.390765995
+            ],
+            "vector_error_km": 0.0016544836733146616,
+            "angular_error_deg": 6.178104644965184e-10,
+            "horizons_elevation_deg": -76.20046455612533,
+            "lunarlink_elevation_deg": -76.20046455550856,
+            "elevation_error_deg": 6.167653054944822e-10,
+            "horizons_azimuth_deg": 263.5562157322702,
+            "lunarlink_azimuth_deg": 263.5562157324209,
+            "azimuth_error_deg": 1.5074874681886286e-10,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        },
+        {
+            "site": "Equatorial Reference",
+            "latitude_deg": 0.0,
+            "longitude_deg": 0.0,
+            "utc": "2026-11-09T00:00:00",
+            "horizons_vector_icrf_km": [
+                -102249350.6855585,
+                -97953859.85101873,
+                -42424021.3666217
+            ],
+            "horizons_vector_moon_me_km": [
+                -146460282.54078773,
+                -19578862.78221008,
+                -3967333.4211962456
+            ],
+            "lunarlink_vector_moon_me_km": [
+                -146460282.54078433,
+                -19578862.783837892,
+                -3967333.4212620854
+            ],
+            "vector_error_km": 0.0016291448061356508,
+            "angular_error_deg": 6.260087397260622e-10,
+            "horizons_elevation_deg": -82.23294445757276,
+            "lunarlink_elevation_deg": -82.23294445695483,
+            "elevation_error_deg": 6.179305955811287e-10,
+            "horizons_azimuth_deg": 258.54505643947084,
+            "lunarlink_azimuth_deg": 258.545056440213,
+            "azimuth_error_deg": 7.421476766467094e-10,
+            "geometric_visibility_agrees": true,
+            "passed": true
+        }
+    ],
+    "limitations": [
+        "Uses a spherical lunar reference shape.",
+        "Does not model terrain shadows.",
+        "Geometric visibility is not operational communications.",
+        "ICRF and SPICE J2000 alignment is assumed.",
+        "Acceptance tolerances are provisional engineering values."
+    ]
+}
