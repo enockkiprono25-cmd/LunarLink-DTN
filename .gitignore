@@ -6,3 +6,6 @@ __pycache__/
 instance/
 *.db
 reports/*.log
+# Large SPICE binary kernels
+*.bsp
+*.bpc

@@ -4,3 +4,4 @@ pandas
 plotly
 requests
 pytest
+spiceypy>=8.3,<9
